@@ -24,6 +24,9 @@ npx l10n-c --rename 'ui.old=ui.new'
 npx l10n-c --delete 'fr:ui.obsolete'
 ```
 
+An agent skill ships in `skills/l10n-c/SKILL.md`. Copy that folder into your agent's
+skills directory, such as `.agents/skills/` or `.claude/skills/`.
+
 Each locale is a directory, each JSON filename a domain: `messages/en/ui.json`
 contains `{ "ui": { "start": "Start" } }`. Keys flatten to `ui.start`; nested
 arrays use numeric segments. Literal dotted object keys are unsupported.
