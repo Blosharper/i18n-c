@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.2.2](https://github.com/Blosharper/l10n-c/compare/vite-plugin-l10n-c-v0.2.1...vite-plugin-l10n-c-v0.2.2) (2026-11-01)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * l10n-c bumped from ^0.2.1 to ^0.3.0
+
 ## [0.2.1](https://github.com/Blosharper/l10n-c/compare/vite-plugin-l10n-c-v0.2.0...vite-plugin-l10n-c-v0.2.1) (2026-10-28)
 
 

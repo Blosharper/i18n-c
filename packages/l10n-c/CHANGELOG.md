@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/Blosharper/l10n-c/compare/l10n-c-v0.2.1...l10n-c-v0.3.0) (2026-11-01)
+
+
+### Features
+
+* **cli:** ship an agent skill ([#13](https://github.com/Blosharper/l10n-c/issues/13)) ([3ca20d1](https://github.com/Blosharper/l10n-c/commit/3ca20d1491cf06737657b8d62e9130bc0d38f123))
+
 ## [0.2.1](https://github.com/Blosharper/l10n-c/compare/l10n-c-v0.2.0...l10n-c-v0.2.1) (2026-10-28)
 
 

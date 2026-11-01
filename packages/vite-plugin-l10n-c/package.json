@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-l10n-c",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Development-only Vite translation manager for l10n-c",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -44,7 +44,7 @@
     "esbuild": "^0.25.0"
   },
   "dependencies": {
-    "l10n-c": "^0.2.1"
+    "l10n-c": "^0.3.0"
   },
   "peerDependencies": {
     "vite": ">=5.0.0"
