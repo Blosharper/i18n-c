@@ -1,3 +1,9 @@
+![l10n-c — Locale file editing for people and coding agents: search, update, rename, delete, replace text, and check missing, nested, duplicate and unused keys.](https://raw.githubusercontent.com/Blosharper/l10n-c/main/.github/assets/banner.png)
+
+[![npm version](https://img.shields.io/npm/v/l10n-c)](https://www.npmjs.com/package/l10n-c)
+[![npm downloads](https://img.shields.io/npm/dm/l10n-c)](https://www.npmjs.com/package/l10n-c)
+[![license](https://img.shields.io/npm/l/l10n-c)](LICENSE)
+
 # l10n-c
 
 > Formerly published under the working name `i18n-c`; npm reserved that name as too similar to an existing package, so the first release ships as `l10n-c`.

@@ -1,3 +1,9 @@
+![vite-plugin-l10n-c — Locale file editing for people and coding agents: search, update, rename, delete, replace text, and check missing, nested, duplicate and unused keys.](https://raw.githubusercontent.com/Blosharper/l10n-c/main/.github/assets/banner.png)
+
+[![npm version](https://img.shields.io/npm/v/vite-plugin-l10n-c)](https://www.npmjs.com/package/vite-plugin-l10n-c)
+[![npm downloads](https://img.shields.io/npm/dm/vite-plugin-l10n-c)](https://www.npmjs.com/package/vite-plugin-l10n-c)
+[![license](https://img.shields.io/npm/l/vite-plugin-l10n-c)](LICENSE)
+
 # vite-plugin-l10n-c
 
 > Formerly published under the working name `vite-plugin-i18n-c`; npm reserved that name as too similar to an existing package, so the first release ships as `vite-plugin-l10n-c`.
