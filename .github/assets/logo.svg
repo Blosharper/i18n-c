@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a1612"/>
+      <stop offset="50%" stop-color="#080b0c"/>
+      <stop offset="100%" stop-color="#180910"/>
+    </linearGradient>
+    <linearGradient id="rimGrad" x1="16" y1="16" x2="240" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00e5a3"/>
+      <stop offset="50%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0" y1="0" x2="0" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34f5c5"/>
+      <stop offset="100%" stop-color="#00b884"/>
+    </linearGradient>
+    <linearGradient id="crimsonGrad" x1="0" y1="0" x2="0" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff5c77"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffe55c"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer contrast shell (visible on both #ffffff and #000000) -->
+  <rect x="4" y="4" width="248" height="248" rx="52" fill="#070a09" stroke="#1e2926" stroke-width="4"/>
+  <rect x="12" y="12" width="232" height="232" rx="44" fill="url(#bgGrad)" stroke="url(#rimGrad)" stroke-width="8"/>
+
+  <!-- Back/Top-Left Locale Tile (Emerald 'A') -->
+  <rect x="36" y="36" width="116" height="116" rx="22" fill="#071f18" stroke="url(#emeraldGrad)" stroke-width="14"/>
+  <!-- Bold Vector 'A' -->
+  <path d="M 68 128 L 94 60 L 120 128 M 76 108 H 112"
+        stroke="#f1f5f9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Front/Bottom-Right Locale Tile (Crimson/Gold Hangul '가') -->
+  <rect x="104" y="104" width="116" height="116" rx="22" fill="#1c080e" stroke="url(#crimsonGrad)" stroke-width="14"/>
+  <!-- Bold Vector Hangul '가' (ㄱ + ㅏ) -->
+  <path d="M 126 134 H 158 L 154 190"
+        stroke="url(#goldGrad)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 182 128 V 196 M 182 160 H 200"
+        stroke="url(#goldGrad)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bi-directional Sync Indicator (Top-Right & Bottom-Left) -->
+  <path d="M 172 56 H 200 V 84" stroke="url(#goldGrad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 84 200 H 56 V 172" stroke="url(#emeraldGrad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
