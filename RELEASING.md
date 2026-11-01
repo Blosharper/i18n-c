@@ -25,9 +25,11 @@ release PR, updates workspace versions/dependency ranges and changelogs, then
 creates per-package tags/releases once that PR is merged. The node-workspace
 plugin tracks the adapter's dependency on the core. Core publishes before adapter.
 
-The owner reviews and merges release PRs. There is no merge driver or sweeper.
-With the default `GITHUB_TOKEN`, release-please PR creation does not trigger CI;
-dispatch `ci.yml` on that release branch and check its actual head before merging.
+Maintainers review and merge release PRs. There is no merge driver or sweeper.
+With the default `GITHUB_TOKEN`, the `ci` run on a release-please PR stops at
+`action_required`. Re-run that run with a person's token and check the actual head
+before merging. Dispatching `ci.yml` on the release branch is not enough: it turns
+the commit green but does not attach `test` to the PR, so the merge stays blocked.
 An explicitly configured `RELEASE_PLEASE_TOKEN` is an optional escape hatch, as in
 the sibling repositories. If the release PR was merged with `GITHUB_TOKEN`,
 manually dispatch `release.yml` on main for the tag/publish half.
