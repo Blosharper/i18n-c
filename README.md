@@ -58,6 +58,19 @@ package. The plugin is `apply: 'serve'`; its UI and write API do not enter build
 or preview. The editor uses fixed `/i18n/` routes, including when Vite has a base
 path. Keep the dev server on a trusted development machine.
 
+## Agent skill
+
+The `l10n-c` package ships a skill that teaches coding agents to use the CLI instead of
+editing locale JSON by hand. Copy it into your agent's skills directory:
+
+```sh
+mkdir -p .agents/skills
+cp -R node_modules/l10n-c/skills/l10n-c .agents/skills/
+```
+
+Claude Code reads `.claude/skills/`. The source is
+[`SKILL.md`](packages/l10n-c/skills/l10n-c/SKILL.md).
+
 ## Data model: file = domain
 
 ```text

@@ -16,7 +16,8 @@
   },
   "files": [
     "dist",
-    "schema.json"
+    "schema.json",
+    "skills"
   ],
   "scripts": {
     "build": "tsup",
