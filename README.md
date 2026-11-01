@@ -3,9 +3,6 @@
 [![l10n-c npm version](https://img.shields.io/npm/v/l10n-c)](https://www.npmjs.com/package/l10n-c)
 [![l10n-c npm downloads](https://img.shields.io/npm/dm/l10n-c)](https://www.npmjs.com/package/l10n-c)
 [![l10n-c license](https://img.shields.io/npm/l/l10n-c)](LICENSE)
-[![vite-plugin-l10n-c npm version](https://img.shields.io/npm/v/vite-plugin-l10n-c)](https://www.npmjs.com/package/vite-plugin-l10n-c)
-[![vite-plugin-l10n-c npm downloads](https://img.shields.io/npm/dm/vite-plugin-l10n-c)](https://www.npmjs.com/package/vite-plugin-l10n-c)
-[![vite-plugin-l10n-c license](https://img.shields.io/npm/l/vite-plugin-l10n-c)](LICENSE)
 
 # l10n-c
 
