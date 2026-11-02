@@ -61,7 +61,13 @@ path. Keep the dev server on a trusted development machine.
 ## Agent skill
 
 The `l10n-c` package ships a skill that teaches coding agents to use the CLI instead of
-editing locale JSON by hand. Copy it into your agent's skills directory:
+editing locale JSON by hand. Install it with [`skills`](https://skills.sh):
+
+```sh
+npx skills add Blosharper/l10n-c
+```
+
+Or copy it from `node_modules` into your agent's skills directory:
 
 ```sh
 mkdir -p .agents/skills
