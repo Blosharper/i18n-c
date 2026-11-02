@@ -1,0 +1,13 @@
+{
+  "name": "l10n-c",
+  "description": "Locale file editing for people and coding agents: search, update, rename, delete, replace text, and check missing, nested, duplicate and unused keys.",
+  "version": "0.3.0",
+  "author": {
+    "name": "Firejune"
+  },
+  "repository": "https://github.com/Blosharper/l10n-c",
+  "license": "MIT",
+  "skills": [
+    "./packages/l10n-c/skills/l10n-c"
+  ]
+}
